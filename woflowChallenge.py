@@ -4,6 +4,8 @@ from collections import defaultdict, deque, Counter
 # so I have tracked two things based on my understanding 
 # The Node with the most children. (If multiple we get the closest one to the root)
 # The node which appears the most on the graph
+# IMPORTANT  - Also we do not need to store the graph locally for the solutions here 
+# I did that to showcase how that functionality would work.
 class Solution:
 	graph = defaultdict(set)
 	# We have been provided a starting Node for this exercise
