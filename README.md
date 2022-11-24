@@ -1,2 +1,2 @@
 # Code-Challenges
-Take home challenegs
+Take home challenges
